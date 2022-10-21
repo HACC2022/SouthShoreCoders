@@ -43,7 +43,7 @@ export default function Home() {
             href="access   "
             className={styles.card}
           >
-            <h2>How to access the Internet &rarr;</h2>
+            <h2>How to Access the Internet &rarr;</h2>
             <p>You made it to this webpage. Why don't you learn  how to take your Internet access to the next level?</p>
           </a>
         </div>
