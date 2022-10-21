@@ -14,6 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+body {
+  color: white;
+  background: #FF964F;
+  padding: 0em;
+  margin: 0em;
+}
 
 body {
   background: #FF964F;
