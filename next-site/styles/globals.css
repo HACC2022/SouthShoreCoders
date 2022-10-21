@@ -22,5 +22,7 @@ a {
   body {
     color: white;
     background: black;
+    padding: 0em;
+    margin: 0em;
   }
 }
