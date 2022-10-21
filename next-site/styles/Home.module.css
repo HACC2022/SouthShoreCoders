@@ -14,6 +14,7 @@
 
 .content {
   flex-grow: 1;
+  text-align: center;
 }
 
 .footer {
@@ -135,4 +136,10 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.sun {
+  stroke: #ffffff;
+  fill: #ffffff;
+  color: #ffffff;
 }
