@@ -6,10 +6,10 @@
   min-height: 100vh;
   padding: 4rem 0;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-right: 4rem;
+  flex-direction: column; /* mobile only */
+  padding-right: 0; /* mobile only */
 }
 
 .content {
@@ -75,23 +75,22 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 40%;
+  width: 100%; /* mobile only */
 }
 
 .grid a {
-  width: calc(100% - 1.5rem);
+  width: calc(100% - 1.5rem); /* need to take into account the padding */
 }
 
-
-@media (max-width: 1200px) {
+/* mobile first -- so these are desktop styles */
+@media (min-width: 1200px) {
   .main {
-    flex-direction: column;
-    padding-right: 0;
-  }
+    flex-direction: row;
+    padding-right: 4rem;
+  } 
   .grid {
-    width: 100%;
+    width: 40%;
   }
-
 }
 
 
