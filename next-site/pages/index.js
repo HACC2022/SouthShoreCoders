@@ -46,7 +46,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by <b>SouthShoreCoders</b>
+          <b>A project by the SouthShoreCoders for HACC</b>
         </a>
       </footer>
     </div>
