@@ -21,18 +21,18 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
 
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="internet" className={styles.card}>
             <h2>How the Internet Works &rarr;</h2>
             <p>Learn about the mechanisms of the Internet, including broadband, the World Wide Web, and more.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="hawaii" className={styles.card}>
             <h2>How the Internet Reaches Hawai'i &rarr;</h2>
             <p>Hawai'i is in the middle of the Pacific. Click here to learn how the Internet reaches us all the way out here!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="access   "
             className={styles.card}
           >
             <h2>How to access the Internet &rarr;</h2>

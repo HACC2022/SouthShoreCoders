@@ -9,11 +9,11 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-right: 4rem;
 }
 
 .content {
   flex-grow: 1;
-/*   min-width: 5em; */
 }
 
 .footer {
@@ -70,6 +70,7 @@
 
 .grid {
   display: flex;
+  gap: 2rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -77,17 +78,18 @@
   width: 40%;
 }
 
-  .grid a {
-    width: 100%;
-  }
+.grid a {
+  width: calc(100% - 1.5rem);
+}
 
 
 @media (max-width: 1200px) {
   .main {
     flex-direction: column;
+    padding-right: 0;
   }
   .grid {
-  width: 100%;
+    width: 100%;
   }
 
 }
@@ -121,18 +123,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
