@@ -2,3 +2,8 @@
   text-align: center;
   font-size: 15 rem;
 }
+
+.backArrow {
+  width: 3rem;
+  margin: 1rem;
+}
