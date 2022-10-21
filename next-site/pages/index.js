@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image';
+import sun from './Sun.png';
 
 export default function Home() {
   return (
@@ -16,8 +18,14 @@ export default function Home() {
             'Apakau ka lā
           </h1>
           <p className={styles.description}>
-            education for all
+            spreading the sun's rays <br/>
+            <strong>broadband education for all</strong>
           </p>
+          <Image 
+            src={sun}
+            width="300em"
+            height="200em"
+          />
         </div>
         <div className={styles.grid}>
 
