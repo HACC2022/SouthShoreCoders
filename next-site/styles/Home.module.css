@@ -15,6 +15,7 @@
 .content {
   flex-grow: 1;
   text-align: center;
+  margin-bottom: 3rem;  /* mobile only */
 }
 
 .footer {
@@ -88,12 +89,12 @@
   .main {
     flex-direction: row;
     padding-right: 4rem;
+    margin-bottom: 0rem;
   } 
   .grid {
     width: 40%;
   }
 }
-
 
 .card {
   margin: 1rem;
@@ -104,7 +105,6 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-
 }
 
 .card:hover,
@@ -136,10 +136,4 @@
   .logo img {
     filter: invert(1);
   }
-}
-
-.sun {
-  stroke: #ffffff;
-  fill: #ffffff;
-  color: #ffffff;
 }
