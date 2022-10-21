@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image';
-import sun from './Sun.svg';
+import Sun from './Sun.svg';
 
 export default function Home() {
   return (
@@ -21,11 +21,7 @@ export default function Home() {
             spreading the sun's rays <br/>
             <strong>broadband education for all</strong>
           </p>
-          <Image className={styles.sun}
-            src={sun}
-            width="300em"
-            height="200em"
-          />
+          <Sun/>
         </div>
         <div className={styles.grid}>
 

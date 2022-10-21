@@ -15,13 +15,17 @@ a {
   box-sizing: border-box;
 }
 
+body {
+  background: #FF964F;
+  color: white;
+}
+
 @media (prefers-color-scheme: light) {
   html {
     color-scheme: light;
   }
   body {
     color: white;
-    background: #FF964F;
     padding: 0em;
     margin: 0em;
   }
