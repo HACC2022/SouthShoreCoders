@@ -11,14 +11,16 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          'Apakau ka lā
-        </h1>
-        <p className={styles.description}>
-          education for all
-        </p> 
-
+        <div className={styles.content}>
+          <h1 className={styles.title}>
+            'Apakau ka lā
+          </h1>
+          <p className={styles.description}>
+            education for all
+          </p>
+        </div>
         <div className={styles.grid}>
+
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>How the Internet Works &rarr;</h2>
             <p>Learn about the mechanisms of the Internet, including broadband, the World Wide Web, and more.</p>
@@ -37,7 +39,7 @@ export default function Home() {
             <p>You made it to this webpage. Why don't you learn  how to take your Internet access to the next level?</p>
           </a>
         </div>
-        </main>
+      </main>
 
       <footer className={styles.footer}>
         <a
