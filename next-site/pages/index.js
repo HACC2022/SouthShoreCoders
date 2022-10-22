@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Sun from './Sun.svg';
+import Sun from './images/Sun.svg';
 
 export default function Home() {
   return (
