@@ -26,7 +26,7 @@ export default function Home() {
 
           <a href="internet" className={styles.card}>
             <h2>How the Internet Works &rarr;</h2>
-            <p>Learn about the mechanisms of the Internet, including broadband, the World Wide Web, and more.</p>
+            <p>Learn about how information is moved through the internet to reach you and your friends. </p>
           </a>
 
           <a href="hawaii" className={styles.card}>
