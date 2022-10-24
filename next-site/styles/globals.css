@@ -6,6 +6,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.backArrow {
+  width: 4rem;
+  margin: 1rem;
+}
+
 a {
   color: inherit;
   text-decoration: none;

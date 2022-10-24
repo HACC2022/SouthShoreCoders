@@ -1,4 +1,8 @@
+import BackArrow from './images/arrow.svg';
 export default function Internet() {
   return (
-    <div>internet</div>
+    <>
+      <BackArrow className="backArrow"/>
+      <div>Internet</div>
+    </>
 )}

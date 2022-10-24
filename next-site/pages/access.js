@@ -5,12 +5,13 @@ import Web from './images/web.svg';
 import Search from './images/search.svg';
 import InternetSymbol from './images/internet.svg';
 
+console.log("The Secret Code is BANANA")
 
 export default function Access() {
   return (
     <>
       <a href="..">
-        <BackArrow className={styles.backArrow}/>
+        <BackArrow className="backArrow"/>
       </a>
       <div className={styles.access}> <strong>How to Access the Internet</strong>
       </div>
@@ -24,7 +25,7 @@ export default function Access() {
       <p>For example:<br></br> Free Tutoring near me<br></br>Dog-friendly parks<br></br>Scholarships due in January<br></br>Math practice online</p>
     <p>The Internet can be an amazing resource for education and enrichment if used properly.</p>
       <p>Do you  want to see what makes a webpage run?</p>
-      <p className="The Secret Code is BANANA">You can right click on your keyboard or mouse and press "Inspect." </p>
+      <p>You can right click on your keyboard or mouse and press "Inspect." </p>
       <p>Wow! You can see all of the source code. Pretty  cool. There will be a secret message hidden in the code of this webpage! Did you find it?</p>
       <p>If you are interested in learning more about how this works, a great resorce  to learn coding is <a href="https://www.codecademy.com/">Codecademy.</a>
 </p>
