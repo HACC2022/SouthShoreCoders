@@ -1,3 +1,4 @@
+import styles from "./internet.module.css";
 import BackArrow from "./images/arrow.svg";
 
 export default function Internet() {
@@ -6,7 +7,7 @@ export default function Internet() {
       <a href="..">
         <BackArrow className="backArrow" />
       </a>
-      <div>Internet</div>
+      <h1 className={pages.title}>How the Internet Works</h1>
     </>
   );
 }
