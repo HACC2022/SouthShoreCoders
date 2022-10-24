@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from './Home.module.css'
 import Sun from './images/Sun.svg';
 
 export default function Home() {

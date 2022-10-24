@@ -1,8 +1,12 @@
-import BackArrow from './images/arrow.svg';
+import BackArrow from "./images/arrow.svg";
+
 export default function Internet() {
   return (
     <>
-      <BackArrow className="backArrow"/>
+      <a href="..">
+        <BackArrow className="backArrow" />
+      </a>
       <div>Internet</div>
     </>
-)}
+  );
+}
