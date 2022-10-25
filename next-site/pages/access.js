@@ -9,7 +9,7 @@ console.log("The Secret Code is BANANA")
 
 export default function Access() {
   return (
-    <>
+    <div className={styles.all}>
       <a href="..">
         <BackArrow className="backArrow"/>
       </a>
@@ -30,6 +30,7 @@ export default function Access() {
       <p>If you are interested in learning more about how this works, a great resorce  to learn coding is <a href="https://www.codecademy.com/">Codecademy.</a>
 </p>
       <p>You've reached the end! Have fun using the Internet in useful ways and taking it to the next level.</p>
-    </>
+      <Image src="./images/diagram" width="2rem" height="2rem" />
+    </div>
   )
 }
