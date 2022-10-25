@@ -1,3 +1,11 @@
 .title {
   text-align: center;
+  font-size: 3rem;
+}
+.intro {
+  text-align: center;
+  padding-left: 10em;
+  padding-right: 10em;
+  line-height: 1.5;
+  font-size: 1.5rem;
 }
