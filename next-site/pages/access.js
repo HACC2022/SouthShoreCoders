@@ -4,8 +4,8 @@ import Web from "./images/web.svg";
 import Search from "./images/search.svg";
 import InternetSymbol from "./images/internet.svg";
 
-// import Image from "next/image";
-// import diagram from "./images/diagram.jpg";
+import Image from "next/image";
+import catStretching from "./images/cat-stretching-feet.webp";
 
 console.log("The Secret Code is BANANA");
 
@@ -25,15 +25,36 @@ export default function Access() {
         pressing this button: <InternetSymbol className={styles.internet} />,
         usually in the top left or bottom right of the screen.{" "}
       </p>
-      <Search className={styles.search} />
-      <p>When you search for "cute cat pics"...</p>
-      <Web className={styles.web} />
-      <p>
-        A complex network of servers and computers finds the best mathces. You
-        can learn more about this in the How the Internet Works section of this
-        webpage.
-      </p>
-      <p>And ta-da! Cute cat pics!</p>
+      <div className={styles.cols}>
+        <div className={styles.leftCol}>
+          <Search className={styles.search} />
+        </div>
+        <div className={styles.middleCol}>
+          <p>When you search for "cute cat pics"...</p>
+        </div>
+        <div className={styles.rightCol}>
+          <Web className={styles.web} />
+          <p>
+            A complex network of servers and computers finds the best mathces.
+            You can learn more about this in the How the Internet Works section
+            of this webpage.
+          </p>
+        </div>
+        <div className={styles.leftCol}>
+          <Image
+            src={catStretching}
+            width="400px"
+            height="500px"
+            alt="Cat stretching"
+          />
+        </div>
+        <div className={styles.middleCol}>
+          <p>And ta-da! Cute cat pics!</p>
+        </div>
+        <div className={styles.rightCol}></div>
+      </div>
+      {/** close cols */}
+
       <p>
         You can look up anything that is important or interesting to you, as
         long as it is appropriate fo rthe time and place.
