@@ -9,3 +9,11 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
+
+.diagram {
+  margin-left: 10em;
+}
+
+.box { 
+  text-align: center;
+}
