@@ -78,6 +78,15 @@ export default function Access() {
   <input type="text" name="code" id="code" />
   <button type="submit">Submit</button>
 </form>
+      <script>
+  function validateFormWithJS() {
+    const code = document.querySelector('#name').value
+
+    if (!name) {
+      alert('Try again.')
+      return false
+    }
+</script>
 
       <p>
         If you are interested in learning more about how this works, a great
