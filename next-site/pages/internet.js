@@ -1,7 +1,7 @@
 import styles from "./internet.module.css";
 import BackArrow from "./images/arrow.svg";
 import Image from "next/image"
-import diagram from './images/diagram.png';
+import diagram from './images/diagram.jpg';
 
 export default function Internet() {
   return (
@@ -11,8 +11,26 @@ export default function Internet() {
       </a>
       <h1 className={styles.title}>How the Internet Works</h1>
       <p className={styles.intro}>Let’s say you’re trying to send an email from your computer to your friend’s computer. Click on each number to see how the information travels from your computer to reach your friends computer through the internet.</p>
-      <div className={styles.diagram}>
-      <Image src={diagram} width="650px" height="450px"/>
+      <div>
+<Image src={diagram} map="image-map" width="650px" height="450px"/>
+<map name="image-map">
+    <area alt="firstBox" title="firstBox" href="#boxOne" coords="20,282,31,298" shape="rect">
+      </area>
+    <area alt="secondBox" title="secondBox" href=".boxTwo" coords="42,217,54,234" shape="rect">
+      </area>
+    <area target="" alt="thirdBox" title="thirdBox" href="" coords="25,186,37,202" shape="rect">
+      </area>
+    <area target="" alt="fourthBox" title="fourthBox" href="" coords="25,117,37,134" shape="rect">
+      </area>
+    <area target="" alt="fifthBox" title="fifthBox" href="" coords="106,61,119,78" shape="rect">
+      </area>
+    <area target="" alt="sixthBox" title="sixthBox" href="" coords="56,8,68,24" shape="rect">
+      </area>
+    <area target="" alt="seventhBox" title="seventhBox" href="" coords="460,62,472,79" shape="rect">
+      </area>
+    <area target="" alt="eightBox" title="eightBox" href="" coords="542,187,556,205" shape="rect">
+      </area>
+</map>
         </div>
             <p className={styles.boxOne}>Your computer will start sending the email by converting it into binary code. This is computer language which can be compared to morse code but made up of 1s and 0s.</p>
       <div> 
