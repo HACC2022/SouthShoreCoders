@@ -89,7 +89,8 @@ export default function Access() {
         <input type="text" name="code" id="code" />
         <button type="submit">Submit</button>
       </form>
-      <p className>You're  right!</p>
+      <p className={styles.correct}>You're  right!</p>
+      <p className={styles.wrong}>Aww, that's not right. You should try again.</p>
       <p>
         If you are interested in learning more about how this works, a great
         resorce to learn coding is{" "}
