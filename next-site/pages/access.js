@@ -9,15 +9,17 @@ import catStretching from "./images/cat-stretching-feet.webp";
 
 console.log("The Secret Code is BANANA");
 
-function checkCode() {
-  name="BANANA";
-  const code = document.querySelector('#name').value
-    if (!name) {
-      alert('Try again.')
-      return false
-    }
+function checkCode(e) {
+  e.preventDefault();
+  console.log("here!");
+  name = "BANANA";
+  const code = document.querySelector("#name")?.value;
+  if (!name) {
+    alert("Try again.");
+    return false;
+  }
 }
-  
+
 export default function Access() {
   return (
     <div className={styles.all}>
@@ -82,11 +84,11 @@ export default function Access() {
         Wow! You can see all of the source code. Pretty cool. There will be a
         secret message hidden in the code of this webpage! Did you find it?
       </p>
-      <form onsubmit="checkCode()">
-  <label for="code">Secret Code:</label>
-  <input type="text" name="code" id="code" />
-  <button type="submit">Submit</button>
-</form>
+      <form onSubmit={checkCode}>
+        <label htmlFor="code">Secret Code:</label>
+        <input type="text" name="code" id="code" />
+        <button type="submit">Submit</button>
+      </form>
       <p>
         If you are interested in learning more about how this works, a great
         resorce to learn coding is{" "}
