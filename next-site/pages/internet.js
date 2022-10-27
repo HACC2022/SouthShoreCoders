@@ -11,7 +11,9 @@ export default function Internet() {
       </a>
       <h1 className={styles.title}>How the Internet Works</h1>
       <p className={styles.intro}>Let’s say you’re trying to send an email from your computer to your friend’s computer. Click on each number to see how the information travels from your computer to reach your friends computer through the internet.</p>
-      <Image className={styles.diagram} src={diagram} width="650px" height="450px"/>
+      <div className={styles.diagram}>
+      <Image src={diagram} width="650px" height="450px"/>
+        </div>
             <p className={styles.boxOne}>Your computer will start sending the email by converting it into binary code. This is computer language which can be compared to morse code but made up of 1s and 0s.</p>
       <div> 
         <p className={styles.boxTwo}>Then, your computer sends this code through radio waves to your wifi router.</p> 
