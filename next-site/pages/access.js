@@ -12,8 +12,8 @@ console.log("The Secret Code is BANANA");
 function checkCode(e) {
   e.preventDefault();
   console.log("here!");
-  name = "BANANA";
-  const code = document.querySelector("#name")?.value;
+  const name = "BANANA";
+  const code = document.querySelector("#code")?.value;
   if (!name) {
     alert("Try again.");
     return false;
@@ -89,6 +89,7 @@ export default function Access() {
         <input type="text" name="code" id="code" />
         <button type="submit">Submit</button>
       </form>
+      <p className>You're  right!</p>
       <p>
         If you are interested in learning more about how this works, a great
         resorce to learn coding is{" "}
