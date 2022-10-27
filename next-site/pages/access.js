@@ -79,7 +79,7 @@ export default function Access() {
   <button type="submit">Submit</button>
 </form>
       <script>
-  function validateFormWithJS() {
+  function checkCode() {
     const code = document.querySelector('#name').value
 
     if (!name) {
