@@ -9,6 +9,15 @@ import catStretching from "./images/cat-stretching-feet.webp";
 
 console.log("The Secret Code is BANANA");
 
+function checkCode() {
+  name="BANANA";
+  const code = document.querySelector('#name').value
+    if (!name) {
+      alert('Try again.')
+      return false
+    }
+}
+  
 export default function Access() {
   return (
     <div className={styles.all}>
@@ -78,16 +87,6 @@ export default function Access() {
   <input type="text" name="code" id="code" />
   <button type="submit">Submit</button>
 </form>
-      <script>
-  function checkCode() {
-    const code = document.querySelector('#name').value
-
-    if (!name) {
-      alert('Try again.')
-      return false
-    }
-</script>
-
       <p>
         If you are interested in learning more about how this works, a great
         resorce to learn coding is{" "}
