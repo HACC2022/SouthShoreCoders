@@ -3,17 +3,104 @@
   font-size: 3rem;
 }
 .intro {
+  margin-left: auto;
+  margin-right:auto;
   text-align: center;
-  padding-left: 10em;
-  padding-right: 10em;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
 .diagram {
-  margin-left: 10em;
+  text-align: center;
 }
 
-.box { 
-  text-align: center;
+.boxOne {
+  width: 75%;
+  margin: 1rem;
+  padding: 1em;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  
+ 
+}
+.boxTwo {
+  width: 75%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.boxThree {
+  width: 75%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.boxFour {
+  width: 75%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.boxFive {
+  width: 75%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.boxSix {
+  width: 75%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.boxSeven {
+  width: 75%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.boxEight {
+  width: 75%;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }

@@ -73,6 +73,12 @@ export default function Access() {
         Wow! You can see all of the source code. Pretty cool. There will be a
         secret message hidden in the code of this webpage! Did you find it?
       </p>
+      <form onsubmit="checkCode()">
+  <label for="code">Secret Code:</label>
+  <input type="text" name="code" id="code" />
+  <button type="submit">Submit</button>
+</form>
+
       <p>
         If you are interested in learning more about how this works, a great
         resorce to learn coding is{" "}
