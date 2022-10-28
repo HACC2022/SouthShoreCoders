@@ -46,7 +46,7 @@ export default function Access() {
         <div className={styles.rightCol}>
           <Web className={styles.web} />
           <p>
-            A complex network of servers and computers finds the best mathces.
+            A complex network of servers and computers finds the best matches.
             You can learn more about this in the How the Internet Works section
             of this webpage.
           </p>
@@ -68,7 +68,7 @@ export default function Access() {
 
       <p>
         You can look up anything that is important or interesting to you, as
-        long as it is appropriate fo rthe time and place.
+        long as it is appropriate for the time and place.
       </p>
       <p>
         For example:<br></br> Free Tutoring near me<br></br>Dog-friendly parks
@@ -93,7 +93,7 @@ export default function Access() {
       <p className={styles.wrong}>Aww, that's not right. You should try again.</p>
       <p>
         If you are interested in learning more about how this works, a great
-        resorce to learn coding is{" "}
+        resource to learn coding is{" "}
         <a href="https://www.codecademy.com/">Codecademy.</a>
       </p>
       <p>
