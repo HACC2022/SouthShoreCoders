@@ -1,0 +1,51 @@
+.all {
+    margin: 1rem;
+  }
+  
+  .access {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .opener {
+    vertical-align: middle;
+  }
+  
+  .internet {
+    width: 1.5rem;
+    height: 1rem;
+    vertical-align: middle;
+    stroke: currentColor;
+  }
+  
+  .styles {
+    margin: 1 rem;
+  }
+  
+  .cols {
+    display: flex;
+    flex-direction: column; /* mobile only */
+    justify-content: space-between;
+  }
+  
+  .cols > * {
+    text-align: center; /* mobile only */
+  }
+  
+  @media (min-width: 1200px) {
+    .cols {
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .cols > * {
+      width: 33%;
+    }
+  }
+  
+  .correct {
+    display: none;
+  }
+  
+  .wrong{
+    display: none;
+  }
