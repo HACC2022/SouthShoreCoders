@@ -11,7 +11,7 @@ export default function Internet() {
       </a>
       <h1 className={styles.title}>How the Internet Works</h1>
       <p className={styles.intro}>Let’s say you’re trying to send an email from your computer to your friend’s computer. Click on each number to see how the information travels from your computer to reach your friends computer through the internet.</p>
-      <div>
+      <div className={styles.diagram}>
 <Image src={diagram} map="image-map" width="650px" height="450px"/>
 <map name="image-map">
     <area alt="firstBox" title="firstBox" href="#boxOne" coords="20,282,31,298" shape="rect">
