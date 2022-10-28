@@ -140,6 +140,10 @@
   
   #map { height: 180px; }
 
-#body {
+.arcMap {
   margin: 1rem;
+}
+
+#body {
+  margin: 1 rem;
 }
