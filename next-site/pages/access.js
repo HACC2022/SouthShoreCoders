@@ -46,7 +46,7 @@ export default function Access() {
         <div className={styles.rightCol}>
           <Web className={styles.web} />
           <p>
-            A complex network of servers and computers finds the best mathces.
+            A complex network of servers and computers finds the best matches.
             You can learn more about this in the How the Internet Works section
             of this webpage.
           </p>
