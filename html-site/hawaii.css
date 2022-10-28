@@ -138,4 +138,14 @@
     }
   }
   
-  #map { height: 180px; }
+#map { 
+  height: 180px;
+}
+
+.arcMap {
+  margin: 1rem;
+}
+
+#body {
+  margin: 1 rem;
+}
