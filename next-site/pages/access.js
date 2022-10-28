@@ -55,7 +55,7 @@ export default function Access() {
           <Image
             src={catStretching}
             width="400px"
-            height="500px"
+            height="400px"
             alt="Cat stretching"
           />
         </div>
@@ -85,7 +85,7 @@ export default function Access() {
         secret message hidden in the code of this webpage! Did you find it?
       </p>
       <form onSubmit={checkCode}>
-        <label htmlFor="code">Secret Code:</label>
+        <label htmlFor="code">Secret Code: </label>
         <input type="text" name="code" id="code" />
         <button type="submit">Submit</button>
       </form>
