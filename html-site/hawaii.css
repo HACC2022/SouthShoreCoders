@@ -139,3 +139,7 @@
   }
   
   #map { height: 180px; }
+
+#body {
+  margin: 1rem;
+}
