@@ -23,7 +23,7 @@ function checkCode(e) {
 export default function Access() {
   return (
     <div className={styles.all}>
-      <a href="..">
+      <a class="backArrow" href="..">
         <BackArrow className="backArrow" />
       </a>
       <div className={styles.access}>

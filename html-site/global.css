@@ -9,6 +9,7 @@ body {
 .backArrow {
   width: 4rem;
   margin: 1rem;
+  display: block;
 }
 
 a {
