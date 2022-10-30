@@ -31,6 +31,10 @@
   .cols > * {
     text-align: center; /* mobile only */
   }
+
+  .secretCode {
+    display: none; /* mobile only */
+  }
   
   @media (min-width: 1200px) {
     .cols {
@@ -39,6 +43,9 @@
     }
     .cols > * {
       width: 33%;
+    }
+    .secretCode {
+      display: block;
     }
   }
   

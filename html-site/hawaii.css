@@ -143,9 +143,22 @@
 }
 
 .arcMap {
-  margin: 1rem;
+  margin: 5vw;
 }
 
 #body {
   margin: 1 rem;
 }
+
+h3 {
+  margin: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.content {
+  margin: 2rem;
+  text-align: left;
+  font-size: 2rem;
+}
+

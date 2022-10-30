@@ -19,24 +19,50 @@
     </a>
     <h1 class="title" }">How the Internet Reaches Hawai'i </h1>
     <h3>Hawaii Inter-Island Cable System</h3>
-  <div class="arcMap">
-  <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style>
-  <div class="embed-container">
-    <iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="10px" marginwidth="10px" title="Submarine_Cable" src="//iolaniresearch.maps.arcgis.com/apps/Embed/index.html?webmap=2548edfbfb6741709ffbbebbcf959f4f&extent=-160.4084,19.2137,-154.344,22.4071&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light">
-    </iframe>
-  </div>
-  </div>
-    <div id="map"></div>
-    <p><b>Landing points:</b></p>
-    <ul>
-        <li>Lihue Terminal, Wailua Point, Kauai</li>
-        <li>Ko Olina Terminal, Kahe Point, Oahu</li>
-        <li>Koko Head Terminal, Sandy Beach, Oahu</li>
-        <li>Kihei Terminal, Mokapu, Maui</li>
-        <li>Kawaihae Terminal, Spencer Beach, Island of Hawaii</li>
-    </ul>
-    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <p class="content">The world uses fiber optic cables that run on the ocean floor to efficiently connect remote areas. Hawai'i has cables running to other land masses as well as between islands. This clickable map made in ArcGis using Terminal Cable 2018 data by Anabel Kinsey shows all of the main landing points and cables that allow Hawai'i to have Internet access.</p>
+    <div class="arcMap">
+        <style>
+            .embed-container {
+                position: relative;
+                padding-bottom: 80%;
+                height: 0;
+                max-width: 100%;
+            }
+
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            small {
+                position: absolute;
+                z-index: 40;
+                bottom: 0;
+                margin-bottom: -15px;
+            }
+        </style>
+        <div class="embed-container">
+            <iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="10px" marginwidth="10px"
+                title="Submarine_Cable"
+                src="//iolaniresearch.maps.arcgis.com/apps/Embed/index.html?webmap=2548edfbfb6741709ffbbebbcf959f4f&extent=-160.4084,19.2137,-154.344,22.4071&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light">
+            </iframe>
+        </div>
+    </div>
+    <div class="content">
+        <p><strong>Landing points:</strong></p>
+        <ul>
+            <li>Lihue Terminal, Wailua Point, Kauai</li>
+            <li>Ko Olina Terminal, Kahe Point, Oahu</li>
+            <li>Koko Head Terminal, Sandy Beach, Oahu</li>
+            <li>Kihei Terminal, Mokapu, Maui</li>
+            <li>Kawaihae Terminal, Spencer Beach, Island of Hawaii</li>
+        </ul>
+    </div>
 </body>
 
 </html>
