@@ -11,12 +11,12 @@
 <body>
     <div class="all">
         <a href="..">
-            <svg height="30px" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 108.06"
-            stroke="currentColor" fill="currentColor">
-            <title>back-arrow</title>
-            <path
-                d="M63.94,24.28a14.28,14.28,0,0,0-20.36-20L4.1,44.42a14.27,14.27,0,0,0,0,20l38.69,39.35a14.27,14.27,0,0,0,20.35-20L48.06,68.41l60.66-.29a14.27,14.27,0,1,0-.23-28.54l-59.85.28,15.3-15.58Z" />
-        </svg></a>
+            <svg height="30px" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 122.88 108.06" stroke="currentColor" fill="currentColor">
+                <title>back-arrow</title>
+                <path
+                    d="M63.94,24.28a14.28,14.28,0,0,0-20.36-20L4.1,44.42a14.27,14.27,0,0,0,0,20l38.69,39.35a14.27,14.27,0,0,0,20.35-20L48.06,68.41l60.66-.29a14.27,14.27,0,1,0-.23-28.54l-59.85.28,15.3-15.58Z" />
+            </svg></a>
         </a>
         <div class="access">
             <strong>How to Access the Internet</strong>
@@ -94,7 +94,8 @@
             long as it is appropriate for the time and place.
         </p>
         <p>
-            For example:<li>Free tutoring near me</li><li>Dog-friendly parks</li>
+            For example:<li>Free tutoring near me</li>
+            <li>Dog-friendly parks</li>
             <li>Scholarships due in January</li>
             <li>Math practice online</li>
         </p>
@@ -108,7 +109,7 @@
             Wow! You can see all of the source code. Pretty cool. There will be a
             secret message hidden in the code of this webpage! Did you find it?
         </p>
-        <form onsubmit="checkCode()">
+        <form id="form">
             <label htmlFor="code">Secret Code: </label>
             <input type="text" name="code" id="code" />
             <button type="submit">Submit</button>
@@ -125,6 +126,27 @@
             taking it to the next level.
         </p>
     </div>
+
+    <script>
+        console.log("The Secret Code is Bananas")
+        function checkCode(e) {
+            e.preventDefault();
+            const name = "BANANA";
+            const code = document.querySelector("#code")?.value;
+            if (name == code.toUpperCase()) {
+                alert("That's right! You're on the track to understanding how webpages are built!");
+                return true;
+            }
+            else {
+                alert("That's not quite right. Try again.");
+                return false;
+            }
+        }
+
+        const form = document.getElementById('form');
+        form.addEventListener('submit', checkCode);
+    </script>
+
 </body>
 
 </html>
