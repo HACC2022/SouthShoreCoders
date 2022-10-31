@@ -95,6 +95,14 @@ button:hover {
   transition: background-color 0.5s ease;
 }
 
+#code {
+  background: rgb(252, 230, 206);
+  border-radius: 5px;
+  padding: 0.75rem;
+  height: 3.8rem;
+  width: 20rem;
+}
+
 @media (min-width: 1200px) {
   .cols {
     flex-wrap: wrap;
