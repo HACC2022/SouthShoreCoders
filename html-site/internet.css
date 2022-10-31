@@ -153,6 +153,15 @@
   flex-direction: column;
 }
 
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+}
+
 @media (min-width: 1200px) {
   .columnLeft {
     display: flex;
