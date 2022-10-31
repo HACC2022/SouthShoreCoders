@@ -4,13 +4,13 @@ As a group of young female coders, we were excited to participate in a project i
 So, the All About Broadband Challenge was perfect for our team and we were excited to code a solution. 
 
 ## What it does
-This web site makes internet eduction on how the Internet works, how the Internet reaches Hawai'i and how to access the Internet. Each of these three sections have a dedicated page and a unique way to convey information. 
+This web site makes internet education on how the Internet works, how the Internet reaches Hawai'i and how to access the Internet. Each of these three sections have a dedicated page and a unique way to convey information. 
 
 ## How we built it
 This site uses HTML, JavaScript and CSS. Each one of us chose one of the sections mentioned above and had creative control over this page. We used the code editors Replit and VS Code. We used GitHub as our repository and GitHub Pages to host our demo. Our interactive map uses ArcGIS.
 
 ## Challenges we ran into
-Originally the site was built using NextJS however the challenges outweighed the benefits for our specific use case. NextJS added significant complexity without bringing a lot of value and besides we were all much more familiar with and comfortable with HTML, CSS and JavaScript.
+Originally the site was built using NextJS, however, the challenges outweighed the benefits for our specific use case. NextJS added significant complexity without bringing a lot of value and we were also all much more familiar with and comfortable with HTML, CSS and JavaScript.
 
 We also ran into some challenges with our code editors. None of use were able to install a tool like VS Code as we did not own our own computers or have root access. Replit allowed us to code completely on the cloud, and it even gave us a terminal shell of sorts, however, we found the develop/debug cycle to be a bit slow.
 
