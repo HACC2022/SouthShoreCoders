@@ -28,7 +28,7 @@
 
 .columnContainer {
   margin: 0;
-  display: flex;
+  display: block; /*mobile only*/
   margin-left: 0;
   text-align: center;
   margin-right: 2em;
@@ -151,6 +151,8 @@
 .mobileView {
   display: flex;
   flex-direction: column;
+  width: 75%;
+  text-align: center;
 }
 
 .video {
@@ -176,5 +178,8 @@
   }
   .mobileView {
     display: none;
+  }
+  .columnContainer {
+    display: flex;
   }
 }
