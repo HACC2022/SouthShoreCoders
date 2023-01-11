@@ -3,6 +3,8 @@ As a group of young female coders, we were excited to participate in a project i
 
 So, the All About Broadband Challenge was perfect for our team and we were excited to code a solution. 
 
+https://hacc2022.github.io/SouthShoreCoders/
+
 ## What it does
 This web site makes internet education on how the Internet works, how the Internet reaches Hawai'i and how to access the Internet. Each of these three sections have a dedicated page and a unique way to convey information. 
 
